@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="carouselPhotoScript.js"></script>
+    <title>Caroussel photo</title>
+</head>
+<body onload = "changeImage()">
+<div class="container">
+
+    <div class="bouton">
+        <img id="buttonLeft"  onclick="changeAvecFleche('gauche')" src="http://xtrait1.uqam.ca/a10/EDM5050-21/montrealkitsch/images/Fleche-gauche.gif"/>
+    </div>
+
+    <img id="framePhoto" src=""/>
+
+    <div class="bouton">
+        <img id="buttonRight" onclick="changeAvecFleche('droite')" src="http://xtrait1.uqam.ca/a10/EDM5050-21/montrealkitsch/images/Fleche-droite.gif"/>
+    </div>
+</div>
+<div id="bouttonCirculaire">
+    <img id="0" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(0)">
+    <img id="1" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(1)">
+    <img id="2" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(2)">
+    <img id="3" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(3)">
+    <img id="4" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(4)">
+    <img id="5" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(5)">
+</div>
+
+</body>
+</html>

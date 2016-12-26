@@ -1,0 +1,39 @@
+#framePhoto{
+    width:600px;
+    height: 400px;
+    background-color: black;
+    border: groove;
+}
+
+.bouton{
+    display: inline-block;
+    vertical-align: 150px;
+    cursor: pointer;
+}
+
+.container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#buttonLeft{
+    width:100px;
+    height: 100px;
+}
+
+#buttonRight{
+    width:100px;
+    height: 100px;
+}
+
+#bouttonCirculaire{
+    display: inline-block;
+    padding-left: 46%;
+}
+
+.petiteBouton{
+    width:15px;
+    height: 15px;
+    cursor: pointer;
+}
+
